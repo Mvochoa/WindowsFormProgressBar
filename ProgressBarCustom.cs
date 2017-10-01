@@ -49,7 +49,7 @@ namespace System.Windows.Forms
                     e.Graphics.FillRectangle(new SolidBrush(this.ForeColor), 2, 2, (int)(this.Width * ((double)this.Value / this.Maximum)) - 4, this.Height - 4);
                     break;
                 case ProgressBarStyle.Marquee:
-                    e.Graphics.FillRectangle(new SolidBrush(this.ForeColor), position, 2, 30, this.Height - 4);
+                    e.Graphics.FillRectangle(new SolidBrush(this.ForeColor), position, 2, 55, this.Height - 4);
                     break;
             }
         }
